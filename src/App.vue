@@ -4,13 +4,15 @@
   </nav>
   <div class="container">
     <router-view></router-view>
-    <div v-if="isLoading" >Loading...</div>
+    <div v-if="isLoading">Loading...</div>
+
   </div>
 </template>
 
 <script setup>
-import usePageRequests from './composables/usePageRequests'
-const {isLoading} = usePageRequests()
+import usePageRequests from "./composables/usePageRequests";
+const { isLoading } = usePageRequests();
+
 </script>
 <style lang="css">
 .container {

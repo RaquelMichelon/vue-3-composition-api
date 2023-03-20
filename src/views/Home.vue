@@ -9,3 +9,4 @@ import PostCard from "../components/PostCard.vue";
 const {items: posts, fetchAll} = useResource('posts')
 fetchAll()
 </script>
+

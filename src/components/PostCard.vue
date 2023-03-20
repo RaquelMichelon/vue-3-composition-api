@@ -1,16 +1,7 @@
 <template>
   <div
-    class="
-      flex
-      m-2
-      gap-2
-      items-center
-      shadow-md
-      w-1/4
-      flex-grow
-      rounded
-      overflow-hidden
-    "
+    class="flex m-2 gap-2 items-center shadow-md w-1/4 flex-grow rounded overflow-hidden"
+
     style="border: 1px solid #eee"
   >
     <img
@@ -30,3 +21,8 @@ const props = defineProps({
 });
 const post = { ...props.post };
 </script>
+
+<!-- https://placehold.co/150 -->
+<!-- https://via.placeholder.com/150 -->
+<!-- https://source.unsplash.com/random/150×150 -->
+
