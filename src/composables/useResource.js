@@ -9,10 +9,11 @@ export default function useResource(resource) {
   const fetchOne = async (id) =>
     (item.value = await makeRequest(`${baseURL}/${id}`));
 
+
   return {
     items,
     fetchAll,
     item,
-    fetchOne,
-  };
+    fetchOne
+  }
 }

@@ -21,4 +21,5 @@ watch(
   () => ({ ...post.value }),
   () => fetchUser(post.value.userId)
 );
+
 </script>
